@@ -1,2 +1,26 @@
 
 /* Your CSS Code here. */
+table,th,thead,td,tr{
+	border:1px solid black;
+	border-collapse:collapse;
+}
+thead{
+	text-align:left;
+}
+tbody{
+	text-align:right;
+}
+.first{
+	text-align:left;
+}
+
+th:nth-child(even){
+	background-color:#DE8544;
+}
+th:nth-child(odd){
+	background-color:#DE8544;
+}
+
+tr:hover{
+	background-color:#2ECFE3;
+}
